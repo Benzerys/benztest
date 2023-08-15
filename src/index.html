@@ -1,19 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>TailwindTest</title>
-    <link rel="stylesheet" href="../dist/output.css">
-</head>
+    <link rel="stylesheet" href="../dist/output.css" />
+  </head>
 
-<body>
-    <div class="bg-green-900 container mx-auto p-4 flex justify-between">
-        <div class="text-white text-3xl font-black">Tailwind CSS</div>
-        <div class="text-white text-3xl font-black">Sretthawit</div>
-        <div class="text-white text-3xl font-black">Contact</div>
+  <body>
+    <header class="bg-neutral-800 text-white">
+      <div class="container mx-auto py-5">
+        <a href="#" class="text-5xl font-bold hover:text-neutral-400"
+          >My Events</a
+        >
+      </div>
+    </header>
+    <div class="container mx-auto max-w-5xl">
+      <h1 class="text-center text-6xl font-semibold py-10">Latests Events</h1>
+      <div class="grid grid-cols-2 gap-7">
+        <div class="flex flex-col gap-7 items-center pb-5 font-sans">
+          <img
+            src="https://img.freepik.com/free-photo/happiness-cheerful-elderly-woman-men-talking-with-female-caregiver-nurse-doctor-having-health-checking-consult-living-areacaretakers-with-senior-couple-sitting-living-room-nursing-home_609648-3086.jpg?w=1380&t=st=1692108889~exp=1692109489~hmac=74dabfdb8a56745491e5b20be7b02acac3d02a246fca36e8a584247cb47fe039"
+            alt="Celebrate"
+            class="flex-auto h-80"
+          />
+          <p class="text-5xl font-semibold">Celebrate Recovery</p>
+          <p class="text-xl font-semibold">Sep 19,2023</p>
+          <a href="#" class="text-white text-lg font-semibold hover:text-black"
+            >MORE</a
+          >
+        </div>
+        <div class="flex flex-col gap-7 items-center pb-5 font-sans">
+          <img
+            src="https://img.freepik.com/free-photo/high-angle-children-holding-hands_23-2149548010.jpg?w=1380&t=st=1692108947~exp=1692109547~hmac=599d481210b73db5f238b2ac855c643b96f96f18a5a5ce1dcd668f5439fe3b34"
+            alt="Worship"
+            class="flex-auto h-80"
+          />
+          <p class="text-5xl font-semibold">Worship Service</p>
+          <p class="text-xl font-semibold">Sep 15,2023</p>
+          <a href="#" class="text-white text-lg font-semibold hover:text-black"
+            >MORE</a
+          >
+        </div>
+        <div class="flex flex-col gap-7 items-center pb-5">
+          <img
+            src="https://img.freepik.com/free-photo/friends-holding-hands-near-stationery-coffee-cups-wooden-desk_23-2148192465.jpg?w=1380&t=st=1692108573~exp=1692109173~hmac=ff53d111799e20e738cc117c6ac75a87baf5307eb6471d820adb764842fc3c88"
+            alt="Celebrate"
+            class="flex-auto h-80"
+          />
+          <p class="text-5xl font-semibold">Student Ministries</p>
+          <p class="text-xl font-semibold">Sep 6,2021</p>
+          <a href="#" class="text-white text-lg font-semibold hover:text-black"
+            >MORE</a
+          >
+        </div>
+        <div class="flex flex-col gap-7 items-center pb-5">
+          <img
+            src="https://img.freepik.com/free-photo/side-view-friends-eating-together_23-2149706755.jpg?w=1380&t=st=1692108689~exp=1692109289~hmac=a57dca76864551c2f3b668b3abf561d4ee8436e3c8900e655f1509cd0cd5595f"
+            alt="Worship"
+            class="flex-auto h-80"
+          />
+          <p class="text-5xl font-semibold">Young Adult Lunch</p>
+          <p class="text-xl font-semibold">Sep 8,2021</p>
+          <a href="#" class="text-white text-lg font-semibold hover:text-black"
+            >MORE</a
+          >
+        </div>
+      </div>
     </div>
-</body>
+    <div class="flex justify-center gap-1 text-lg py-12">
+      <p>Images</p>
+      <p>from</p>
+      <a
+        href="https://www.freepik.com/"
+        class="border-b border-black hover:border-none"
+        >Freepik</a
+      >
+    </div>
+    <footer class="bg-neutral-800 text-white text-center text-sm">
+      <div class="py-10">
+        <p>Sample text. Click to select the text box. Click again or double</p>
+        <p>click to start editing the text.</p>
+      </div>
+      <div class="py-10 flex justify-center">
+        <div class="flex gap-1">
+          <a
+            href="https://nicepage.com/website-templates"
+            class="underline text-sky-100 hover:no-underline hover:text-neutral-400"
+            >Website Template</a
+          >
 
+          <p>created with</p>
+          <a
+            href="https://nicepage.com/website-builder"
+            class="underline text-sky-100 hover:no-underline hover:text-neutral-400"
+            >Website Builder</a
+          >
+        </div>
+        .
+      </div>
+    </footer>
+  </body>
 </html>
